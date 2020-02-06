@@ -1,5 +1,5 @@
 /* String functions section */
-
+#
 // Splits a single string on separator into a vector of strings
 std::vector<std::string> Split(std::string whole, std::string separator);
 
@@ -53,6 +53,14 @@ int NthFibonacci(int n);
 
 // takes an int, n, and returns the factorial of that int (n!)
 int Factorial(int n);
+
+int Factorial(int n){
+	int fact = 1;
+	for (int i = 1; i <= n; i++){
+		fact = fact * i;
+	}
+	return fact;
+}
 
 // returns -1 if the number is negative and 1 if positive
 int Sign(int num);
