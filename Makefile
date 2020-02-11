@@ -2,10 +2,10 @@ CXX = g++
 CXXFlags = -std=c++17 -Wall
 CXXGDB = -ggdb
 
-all: test
+all: test func
 
 clean: 
-	rm test
+	rm test func
 
 test: test.cpp
 	$(CXX) $(CXXFLAGS) test.cpp -o test
