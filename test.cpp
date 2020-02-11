@@ -6,5 +6,5 @@ TEST_CASE("MULTIPLES OF N UP TO M ARE CALCULATED IN A VECTOR", "[Multiples]") {
     oneThree.push_back(1);
     oneThree.push_back(2);
     oneThree.push_back(3);
-    REQUIRE( Multiples(1,3) == oneThree);
+    REQUIRE(functions_to_implement::Multiples(1,3) == oneThree);
 }
